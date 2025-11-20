@@ -1,9 +1,13 @@
+--[[
+    PROGRAMMED AS OF 11/20/2025
+--]]
+
 --@thread | load
 love.run = function()
 
     --@import
-    local src = require("source.init")
-    local gamestates = src[1]
+        local src = require("source.init")
+        local gamestates = src[1]
 
     --@auxiliary
         --//love
