@@ -54,7 +54,6 @@ love.run = function()
             _G.SwitchGamestate = SwitchGamestate
 
             local function DeferGamestate(index, data)
-
                 -- Define priority.
                 -- Our priority by default is fetched from the gamestate, but
                 -- can be overloaded by a priority in our data packet.

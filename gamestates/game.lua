@@ -20,7 +20,7 @@ return {
     function(data, prev)
     end,
 
-    --@input-hash
+    --@event-hash
     {}
 
 }
