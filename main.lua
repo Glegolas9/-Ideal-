@@ -78,6 +78,8 @@ love.run = function()
         --\\
     --@thread | preload
         SwitchGamestate(1)
+
+    --@thread | step
         lt_step()
 
     --@thread | run
